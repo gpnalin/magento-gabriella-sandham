@@ -199,3 +199,7 @@ Temporary Items
 # !/js/foo_bar/
 # !/skin/frontend/base/default/css/foo_bar.css
 # !/skin/frontend/base/default/images/foo_bar/
+
+
+!/app/design/frontend/gs2015
+!/skin/frontend/gs2015

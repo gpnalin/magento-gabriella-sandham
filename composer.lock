@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "c7416e1ec52acbb843edaa82c276795a",
+    "hash": "0d6a534d42583138d253f72718b729c3",
     "packages": [
         {
             "name": "eloquent/composer-config-reader",
@@ -204,16 +205,16 @@
         },
         {
             "name": "icecave/isolator",
-            "version": "2.2.1",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/IcecaveStudios/isolator.git",
-                "reference": "1a97a7ea0a3acf4b6caf06313d72c32e0182bca5"
+                "reference": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/IcecaveStudios/isolator/zipball/1a97a7ea0a3acf4b6caf06313d72c32e0182bca5",
-                "reference": "1a97a7ea0a3acf4b6caf06313d72c32e0182bca5",
+                "url": "https://api.github.com/repos/IcecaveStudios/isolator/zipball/97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
+                "reference": "97c51fafa39c57a8f1a31f978a48fbe6cea4a5d5",
                 "shasum": ""
             },
             "require": {
@@ -252,20 +253,20 @@
                 "test",
                 "unit"
             ],
-            "time": "2014-02-27 04:33:16"
+            "time": "2014-08-12 03:16:11"
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "1.3.6",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "d97cf3ce890fe80f247fc08594a1c8a1029fc7ed"
+                "reference": "2465fe486c864e30badaa4d005ebdf89dbc503f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/d97cf3ce890fe80f247fc08594a1c8a1029fc7ed",
-                "reference": "d97cf3ce890fe80f247fc08594a1c8a1029fc7ed",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/2465fe486c864e30badaa4d005ebdf89dbc503f3",
+                "reference": "2465fe486c864e30badaa4d005ebdf89dbc503f3",
                 "shasum": ""
             },
             "require": {
@@ -296,11 +297,6 @@
             ],
             "authors": [
                 {
-                    "name": "Igor Wiedler",
-                    "email": "igor@wiedler.ch",
-                    "homepage": "http://wiedler.ch/igor/"
-                },
-                {
                     "name": "Bruno Prieto Reis",
                     "email": "bruno.p.reis@gmail.com"
                 },
@@ -309,9 +305,12 @@
                     "email": "justin.rainbow@gmail.com"
                 },
                 {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                },
+                {
                     "name": "Robert Schönthal",
-                    "email": "seroscho@googlemail.com",
-                    "homepage": "http://digitalkaoz.net"
+                    "email": "seroscho@googlemail.com"
                 }
             ],
             "description": "A library to validate a json schema.",
@@ -320,20 +319,20 @@
                 "json",
                 "schema"
             ],
-            "time": "2014-03-05 15:03:52"
+            "time": "2015-03-27 16:41:39"
         },
         {
             "name": "magento-hackathon/magento-composer-installer",
-            "version": "2.0.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-hackathon/magento-composer-installer.git",
-                "reference": "3ffa023d2717d16bfc31c36c8184605dec3f34f7"
+                "reference": "32a1048626880b181906fddb70f0bac1bab97a65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-hackathon/magento-composer-installer/zipball/3ffa023d2717d16bfc31c36c8184605dec3f34f7",
-                "reference": "3ffa023d2717d16bfc31c36c8184605dec3f34f7",
+                "url": "https://api.github.com/repos/magento-hackathon/magento-composer-installer/zipball/32a1048626880b181906fddb70f0bac1bab97a65",
+                "reference": "32a1048626880b181906fddb70f0bac1bab97a65",
                 "shasum": ""
             },
             "archive": {
@@ -348,12 +347,15 @@
             },
             "require-dev": {
                 "composer/composer": "*@dev",
+                "firegento/phpcs": "1.1.0",
                 "mikey179/vfsstream": "*",
                 "phpunit/phpunit": "*",
                 "phpunit/phpunit-mock-objects": "dev-master",
+                "squizlabs/php_codesniffer": "1.4.7",
                 "symfony/process": "*"
             },
             "suggest": {
+                "colinmollenhour/modman": "*",
                 "magento-hackathon/composer-command-integrator": "*",
                 "theseer/autoload": "~1.14",
                 "zetacomponents/console-tools": "dev-master"
@@ -368,6 +370,11 @@
             "autoload": {
                 "psr-0": {
                     "MagentoHackathon\\Composer\\Magento": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-0": {
+                    "MagentoHackathon\\Composer\\Magento": "tests/"
                 }
             },
             "license": [
@@ -406,26 +413,18 @@
                 "magento"
             ],
             "support": {
-                "source": "https://github.com/magento-hackathon/magento-composer-installer/tree/2.0.0",
+                "source": "https://github.com/magento-hackathon/magento-composer-installer/tree/2.1.1",
                 "issues": "https://github.com/magento-hackathon/magento-composer-installer/issues"
             },
-            "time": "2014-06-06 20:52:39"
+            "time": "2014-12-11 23:43:53"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
 }
